@@ -1,0 +1,326 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+@media ( min-width : 1200px) and (max-width: 1342px) {
+	.navigation.navbar-dark .navbar-nav .nav-link {
+		padding: 0px 14px;
+	}
+	.login_btn a {
+		display: inline;
+		border-style: solid;
+		border-color: #b55400;
+		border-radius: 30px;
+		color: #fff !important;
+		margin: 0 10px;
+	}
+	.login_btn a:hover {
+		background: #b55400 !important;
+	}
+	.user-login {
+		background-image: url('../images/login_bg.png');
+		background-size: 23%;
+		background-repeat: no-repeat;
+		background-position: right bottom;
+	}
+	.user-register{
+		background-image: url('../images/register_bg.png');
+		background-size: 18%;
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+}
+
+@media ( min-width : 992px) and (max-width: 1199px) {
+	.titlepage h2 {
+		font-size: 32px;
+	}
+	.about .titlepage::before {
+		right: -16px;
+	}
+	.about .titlepage p {
+		line-height: 28px;
+		padding-top: 9px;
+	}
+	.about .about_img {
+		margin-left: 0px;
+	}
+	.login_btn a {
+		display: inline;
+		border-style: solid;
+		border-color: #b55400;
+		border-radius: 30px;
+		color: #fff !important;
+		margin: 0 10px;
+	}
+	.login_btn a:hover {
+		background: #b55400 !important;
+	}
+	.user-login {
+		background-image: url('../images/login_bg.png');
+		background-size: 23%;
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-attachment: fixed;
+	}
+	.user-register{
+		background-image: url('../images/register_bg.png');
+		background-size: 18%;
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+}
+
+@media ( min-width : 768px) and (max-width: 991px) {
+	#banner1 .carousel-caption figure img{
+		width: 100%;
+		height: 45vw;
+	}
+	.navigation.navbar-dark .navbar-nav .nav-link {
+		padding: 0px 9px;
+	}
+	.text-bg h1 {
+		margin-left: 31px;
+	}
+	.about .about_img {
+		margin-left: 0px;
+	}
+	.my_box p {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.about .titlepage::before {
+		background: inherit;
+		right: 0px;
+	}
+	.movies .movies_box figure img{
+		height: 25vw;
+	}
+	ul.location_icon li {
+		padding: 0 18px;
+	}
+	.login_btn a {
+		display: inline;
+		border-style: solid;
+		border-color: #b55400;
+		border-radius: 30px;
+		color: #fff !important;
+		margin: 0 10px;
+	}
+	.login_btn a:hover {
+		background: #b55400 !important;
+	}
+	.user-register{
+		background-image: url('../images/register_bg.png');
+		background-size: 18%;
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+	.admin-section .form-input {
+    	width: 100%;
+    }
+}
+
+@media ( min-width : 576px) and (max-width: 767px) {
+	#banner1 .carousel-caption figure img{
+		width: 100%;
+		height: 45vw;
+	}
+	.text-bg h1 {
+		font-size: 48px;
+	}
+	.logo {
+		padding-top: 5px;
+	}
+	.titlepage h2 {
+		font-size: 31px;
+	}
+	.about .about_img {
+		margin-left: 0px;
+	}
+	.about .titlepage {
+		margin-right: 0;
+		margin-top: 20px;
+	}
+	.movies .movies_box figure img {
+		 height: 40vw;
+	}
+	.my_box p {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.about .titlepage::before {
+		background: inherit;
+		right: 0px;
+	}
+	.conta {
+		margin-bottom: 30px;
+	}
+	ul.location_icon li {
+		font-size: 17px;
+		padding-left: 13px;
+	}
+	.position_head .header {
+		background: transparent;
+	}
+	.navigation.navbar {
+		float: right;
+		display: inherit !important;
+		padding: 0;
+		width: 100%;
+		padding-top: 2px !important;
+		background: transparent;
+	}
+	.navigation .navbar-collapse {
+		background: #070404;
+		padding: 20px;
+		margin-top: 64px;
+		position: absolute;
+		width: 100%;
+		margin-right: 20px;
+		z-index: 999;
+	}
+	.navigation.navbar-dark .navbar-nav .nav-link {
+		padding: 10px 0;
+		color: #fff;
+	}
+	.navigation.navbar-dark .navbar-nav .nav-link:focus, .navigation.navbar-dark .navbar-nav .nav-link:hover
+		{
+		color: #b55400;
+	}
+	.navigation.navbar-dark .navbar-nav .active>.nav-link, .navigation.navbar-dark .navbar-nav .nav-link.active,
+		.navigation.navbar-dark .navbar-nav .nav-link.show, .navigation.navbar-dark .navbar-nav .show>.nav-link
+		{
+		color: #b55400;
+	}
+	.navigation.navbar-dark .navbar-toggler {
+		border: inherit;
+		float: right;
+		padding-top: 6px;
+	}
+	.d_none {
+        display: none;
+    }
+}
+
+@media ( max-width : 575px) {
+	.header {
+		padding: 30px 0px 15px 0px;
+	}
+	.logo{
+		padding-bottom: 10px;
+	}
+	#banner1 .carousel-caption figure img{
+		width: 100%;
+		height: 50vw;
+	}
+	#banner1 a.carousel-control-prev {
+    	left: 15px;
+	}
+	#banner1 a.carousel-control-next {
+		right: 15px;
+	}
+	.about .about_img {
+		margin-left: 0px;
+	}
+	.text-bg h1 {
+		font-size: 28px;
+		line-height: 42px;
+	}
+	.titlepage h2 {
+		font-size: 29px;
+	}
+	.movies .movies_box {
+		margin: 15px auto;
+		width: 55%;
+	}
+	.movies .movies_box figure img{
+		width: 100%;
+		height: 45vw;
+	}
+	.padding_right0 {
+		padding-right: 15px;
+	}
+	.my_box {
+		margin: auto;
+		padding: 15px;
+	}
+	.my_box h3, .my_box p {
+		margin: inherit;
+		padding: inherit;
+	}
+	.my_box h3 {
+		margin-top: 220px;
+	}
+	.my_box figure {
+		margin: inherit;
+		padding: inherit;
+		top: 75%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.my_box figure {
+		margin: inherit;
+		padding: inherit;
+		margin-bottom: 20px;
+		margin-left: 0px;
+	}
+	.about .titlepage {
+		margin-right: 0;
+		margin-top: 20px;
+	}
+	.about .titlepage::before {
+		background: inherit;
+		right: 0px;
+	}
+	.main_form {
+		padding: 40px 0px;
+		margin-right: 15px;
+	}
+	.navigation.navbar {
+		float: right;
+		display: inherit !important;
+		padding: 0 !important;
+		width: 100%;
+		margin-top: -42px;
+		background: transparent;
+	}
+	.position_head .header {
+		background: transparent;
+	}
+	.navigation .navbar-collapse {
+		background: #070404;
+		padding: 20px;
+		margin-top: 55px;
+		position: absolute;
+		width: 100%;
+		margin-right: 20px;
+		z-index: 999;
+	}
+	.navigation.navbar-dark .navbar-nav .nav-link {
+		padding: 10px 0;
+		color: #fff;
+	}
+	.navigation.navbar-dark .navbar-nav .nav-link:focus, .navigation.navbar-dark .navbar-nav .nav-link:hover
+		{
+		color: #b55400;
+	}
+	.navigation.navbar-dark .navbar-nav .active>.nav-link, .navigation.navbar-dark .navbar-nav .nav-link.active,
+		.navigation.navbar-dark .navbar-nav .nav-link.show, .navigation.navbar-dark .navbar-nav .show>.nav-link
+		{
+		color: #b55400;
+	}
+	.navigation.navbar-dark .navbar-toggler {
+		float: right;
+		margin-right: 2px;
+		border: inherit;
+	}
+	.d_none {
+        display: none;
+    }
+    .user-login .form-input {
+    	width: 80%;
+    }
+    .admin-section .form-input {
+    	width: 100%;
+    }
+}
